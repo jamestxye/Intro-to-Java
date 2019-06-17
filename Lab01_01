@@ -1,0 +1,15 @@
+public class Main{
+  public static void main(String[] args){
+
+System.out.print("Hello, World!\n");    //Newline
+ 
+System.out.println("Hello, World!\"");  //Double quote
+
+System.out.print("Hello, World!\\");    //Backslash
+
+System.out.print("Hello, World!\r");    //Carrige return
+
+System.out.print("Hello, World!\f");    //Form feed
+
+  }
+}
