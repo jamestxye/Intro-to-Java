@@ -1,0 +1,12 @@
+public class Main{
+  public static void main(String[] args){
+//picture of james
+System.out.print("    ___     ____     _________   ______    _ _____ \n");
+System.out.print("  (_   |    /  \\    |        |  \\    ___) )  ____)\n");
+System.out.print("    |  |   /    \\   |  |\\/|  |  |  (__   (  (___\n");
+System.out.print(" _  |  |  /  ()  \\  |  |  |  |  |   __)   \\___  \\\n");
+System.out.print("( |_|  | |   __   | |  |  |  |  |  (___     ___)  ) \n");
+System.out.print("_\\____/  |___(_)__| |  |__|  |_ /_______)  (______)\n");
+
+ }
+}
