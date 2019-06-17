@@ -1,0 +1,6 @@
+4. Bug: line 6 does not end in a semi-colon
+   How to fix: add semi-colon after close parenthesis on line 6
+5.Bug: In line 4, n should be i
+   How to fix: Make n into i
+6.Bug: Add a squiggly open parenthesis on line 2
+   How to fix: add squiggly open parenthesis on line 2
