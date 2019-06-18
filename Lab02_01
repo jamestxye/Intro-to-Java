@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+    
+   
+    System.out.print("What is your first name:: ");
+    String firstName = userInput.nextLine();
+    System.out.print("What is your last name:: ");
+    String lastName = userInput.nextLine();
+    System.out.println("\nHello " + firstName + " " + lastName + ". How are you doing?");
+
+
+    System.out.print("what is your age:: ");
+    int age = userInput.nextInt();
+    String fullName = firstName + " " + lastName;  
+    System.out.println("I see" + fullName +". You are " + age + " years old,");
+
+        
+    String name = "lkjf";
+    age = 19;
+    double mpg = 32.4;
+    System.out.println(name);
+    System.out.println(age);
+    System.out.println(mpg);
+  }
+}
+
+
