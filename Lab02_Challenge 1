@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+
+    System.out.print("Choose a number ");
+    double firstNumber = userInput.nextDouble();
+
+    System.out.print("Choose a number ");
+    double secondNumber = userInput.nextDouble();
+    
+    double sum = secondNumber + firstNumber;
+    
+    
+    
+    System.out.println(sum);
+
+
+  }
+}
+
