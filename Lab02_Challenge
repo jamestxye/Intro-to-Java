@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+
+  
+    System.out.print("Enter a number");
+    double Numb1 = userInput.nextDouble();
+    System.out.print("Enter a number");
+    double Numb2 = userInput.nextDouble();
+    System.out.print("Enter a number");
+    double Numb3 = userInput.nextDouble(); 
+    System.out.print("Enter a number");
+    double Numb4 = userInput.nextDouble(); 
+    System.out.print("Enter a number");
+    double Numb5 = userInput.nextDouble(); 
+   
+    double sum = Numb1+Numb2+Numb3+Numb4+Numb5;
+    double hi  = sum/5;
+  
+
+
+
+    System.out.println( "The averge of the numbers is" + hi );
+
+
+  }
+}
