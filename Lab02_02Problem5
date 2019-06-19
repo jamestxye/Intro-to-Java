@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+
+    System.out.print("What is your name?");
+    String firstName = userInput.nextLine();
+
+    System.out.print("Enter your weight in LB.");
+    double wieght = userInput.nextDouble();
+
+    System.out.print("Enter your hieght in INCHES");
+    double hieght = userInput.nextDouble();
+
+    double sum = wieght*703/hieght*hieght;
+
+
+
+    System.out.println( firstName + ",your BMI is " + sum);
+
+
+  }
+}
