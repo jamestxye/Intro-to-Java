@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+
+  
+    System.out.print("Enter the hieght");
+    double hieght = userInput.nextDouble();
+
+    System.out.print("Enter radius");
+    double radius = userInput.nextDouble();
+
+    double sum = 2*Math.PI*radius*hieght+2*Math.PI*radius*radius;
+  
+
+
+
+    System.out.println( "The volume of the cylinder is about " + sum );
+
+
+  }
+}
